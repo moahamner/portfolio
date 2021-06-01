@@ -1,38 +1,101 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	/* background-color: #282c34; */
+	/* min-height: 100vh; */
+	/* display: flex; */
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+
+	/* font-size: calc(10px + 2vmin); */
+	/* color: white; */
 }
 
-.App-link {
-  color: #61dafb;
+.nav {
+	position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact {
+	position: absolute;
+	margin-top: 0;
+	text-align: left;
+}
+
+.page-title {
+}
+
+contact .sub-title {
+	font-size: 1.2rem;
+}
+
+.project-texts {
+	position: absolute;
+	align-items: center;
+	font-weight: 700;
+	/* visibility: hidden; */
+	opacity: 0;
+	z-index: 1000;
+}
+
+.project-title {
+	font-size: 2rem;
+	text-align: center;
+	z-index: 1000;
+	cursor: pointer;
+	color: orangered;
+}
+
+.project-sub-title {
+	font-size: 1.3rem;
+	text-align: center;
+	z-index: 1000;
+	cursor: pointer;
+	color: orangered;
+}
+
+h1,
+h2,
+p {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+.project-title:hover,
+.project-texts:hover {
+	visibility: visible;
+	opacity: 1;
+}
+
+.projects-container {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+	/* padding-left: 2rem;
+	padding-right: 2rem; */
+}
+
+.project-box {
+	width: 33%;
+	/* width: 30%; */
+	/* background-color: blue; */
+	/* flex-grow: 1; */
+	/* height: 30vh; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.project-image {
+	/* max-width: 50vw; */
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
 }
