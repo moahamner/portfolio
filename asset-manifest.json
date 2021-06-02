@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.11d20b4f.chunk.css",
+    "main.js": "/portfolio/static/js/main.e592fe1a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e592fe1a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.235816a1.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.235816a1.js.map",
+    "static/js/2.cf6e4df9.chunk.js": "/portfolio/static/js/2.cf6e4df9.chunk.js",
+    "static/js/2.cf6e4df9.chunk.js.map": "/portfolio/static/js/2.cf6e4df9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.11d20b4f.chunk.css.map": "/portfolio/static/css/main.11d20b4f.chunk.css.map",
+    "static/js/2.cf6e4df9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cf6e4df9.chunk.js.LICENSE.txt",
+    "static/media/burkar.a50afddd.jpeg": "/portfolio/static/media/burkar.a50afddd.jpeg",
+    "static/media/hush_hush_stories.5f447c9e.jpeg": "/portfolio/static/media/hush_hush_stories.5f447c9e.jpeg",
+    "static/media/project6.ef700329.png": "/portfolio/static/media/project6.ef700329.png",
+    "static/media/project7.9446915a.png": "/portfolio/static/media/project7.9446915a.png",
+    "static/media/project8.a3c0003e.png": "/portfolio/static/media/project8.a3c0003e.png",
+    "static/media/soritoni.fecc880a.jpeg": "/portfolio/static/media/soritoni.fecc880a.jpeg",
+    "static/media/undersokningen.6464470b.jpeg": "/portfolio/static/media/undersokningen.6464470b.jpeg",
+    "static/media/uppdrag_gamling.65cffed2.jpg": "/portfolio/static/media/uppdrag_gamling.65cffed2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.235816a1.js",
+    "static/js/2.cf6e4df9.chunk.js",
+    "static/css/main.11d20b4f.chunk.css",
+    "static/js/main.e592fe1a.chunk.js"
+  ]
+}
