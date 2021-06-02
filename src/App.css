@@ -98,7 +98,7 @@ p {
 
 .project-box {
 	width: 50vw;
-	background-color: blue;
+	
 	flex-grow: 1;
 	/* height: 30vh; */
 	display: flex;
