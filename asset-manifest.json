@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e904b335.chunk.css",
+    "main.css": "/portfolio/static/css/main.aadaa52d.chunk.css",
     "main.js": "/portfolio/static/js/main.d696d786.chunk.js",
     "main.js.map": "/portfolio/static/js/main.d696d786.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.235816a1.js",
@@ -8,7 +8,7 @@
     "static/js/2.cf6e4df9.chunk.js": "/portfolio/static/js/2.cf6e4df9.chunk.js",
     "static/js/2.cf6e4df9.chunk.js.map": "/portfolio/static/js/2.cf6e4df9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e904b335.chunk.css.map": "/portfolio/static/css/main.e904b335.chunk.css.map",
+    "static/css/main.aadaa52d.chunk.css.map": "/portfolio/static/css/main.aadaa52d.chunk.css.map",
     "static/js/2.cf6e4df9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cf6e4df9.chunk.js.LICENSE.txt",
     "static/media/burkar.a50afddd.jpeg": "/portfolio/static/media/burkar.a50afddd.jpeg",
     "static/media/hush_hush_stories.5f447c9e.jpeg": "/portfolio/static/media/hush_hush_stories.5f447c9e.jpeg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.235816a1.js",
     "static/js/2.cf6e4df9.chunk.js",
-    "static/css/main.e904b335.chunk.css",
+    "static/css/main.aadaa52d.chunk.css",
     "static/js/main.d696d786.chunk.js"
   ]
 }
