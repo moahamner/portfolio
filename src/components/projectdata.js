@@ -16,7 +16,7 @@ const projectData = [
 		title: "Gamla burkar flaskor och tanter",
 		year: "2017",
 		info: "",
-		url: "https://emmy-codes.github.io/SunshineDetector/mainpage.html", // if no repo, the button will not show up
+		url: "", // if no repo, the button will not show up
 	},
 	{
 		iid: "2",
@@ -24,7 +24,7 @@ const projectData = [
 		imgalt: "Hush hush stories",
 		title: "Hush Hush Stories",
 		year: "2015",
-		url: "https://emmy-codes.github.io/SunshineDetector/mainpage.html", // if no repo, the button will not show up
+		url: "", // if no repo, the button will not show up
 	},
 	{
 		id: "3",
@@ -33,7 +33,7 @@ const projectData = [
 		title: "Soritoni",
 		year: "2020",
 		info: "ljudtekniker, ljudläggare",
-		url: "https://emmy-codes.github.io/SunshineDetector/mainpage.html",
+		url: "",
 	},
 	{
 		id: "4",
@@ -42,7 +42,7 @@ const projectData = [
 		title: "Undersökningen",
 		year: "2019",
 		info: "ljudtekniker",
-		url: "https://emmy-codes.github.io/SunshineDetector/mainpage.html",
+		url: "",
 	},
 	{
 		id: "5",
@@ -50,7 +50,7 @@ const projectData = [
 		imgalt: "Uppdrag gamling",
 		title: "Uppdrag gamling",
 		year: "2019",
-		url: "https://emmy-codes.github.io/SunshineDetector/mainpage.html",
+		url: "",
 	},
 	{
 		id: "6",
@@ -59,7 +59,7 @@ const projectData = [
 		title: "Patient och Undertecknad",
 		year: "2021",
 		info: "ljudtekniker, ljudläggare",
-		url: "https://emmy-codes.github.io/SunshineDetector/mainpage.html",
+		url: "",
 	},
 	{
 		id: "7",
@@ -67,7 +67,7 @@ const projectData = [
 		imgalt: "Uppdrag gamling",
 		title: "Lyssna på mig",
 		year: "2018",
-		url: "https://emmy-codes.github.io/SunshineDetector/mainpage.html",
+		url: "",
 	},
 	{
 		id: "8",
@@ -76,7 +76,7 @@ const projectData = [
 		title: "Som blommor som fåglar och så",
 		year: "2020",
 		info: "ljudtekniker, ljudläggare",
-		url: "https://emmy-codes.github.io/SunshineDetector/mainpage.html",
+		url: "",
 	},
 ];
 

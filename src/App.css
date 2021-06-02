@@ -1,3 +1,7 @@
+/* * {
+	box-sizing: border-box;
+} */
+
 .App {
 	text-align: center;
 }
@@ -25,11 +29,17 @@
 	text-align: left;
 }
 
-.page-title {
-}
-
 contact .sub-title {
 	font-size: 1.2rem;
+}
+
+.sub-title {
+	line-height: 2.5rem;
+}
+
+.page-title {
+	line-height: 1.5rem;
+	padding: 0;
 }
 
 .project-texts {
@@ -45,15 +55,17 @@ contact .sub-title {
 	font-size: 2rem;
 	text-align: center;
 	z-index: 1000;
-	cursor: pointer;
+	/* cursor: pointer; */
 	color: orangered;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .project-sub-title {
 	font-size: 1.3rem;
 	text-align: center;
 	z-index: 1000;
-	cursor: pointer;
+	/* cursor: pointer; */
 	color: orangered;
 }
 
@@ -74,28 +86,90 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	position: relative;
-	padding-top: 3rem;
+	padding-top: 1rem;
 	padding-bottom: 4rem;
 	/* padding-left: 2rem;
 	padding-right: 2rem; */
 }
 
 .project-box {
-	width: 33%;
-	/* width: 30%; */
-	/* background-color: blue; */
-	/* flex-grow: 1; */
+	width: 50vw;
+	background-color: blue;
+	flex-grow: 1;
 	/* height: 30vh; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	/* margin: 1rem; */
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+a:hover {
+	color: orangered;
 }
 
 .project-image {
-	/* max-width: 50vw; */
+	/* background-size: cover; */
+
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	overflow: hidden;
+	/* height: 100%; */
+	/* max-width: 50vw; */
+}
+
+footer {
+	margin: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.project-box {
+		width: 100vw;
+	}
+
+	.page-title,
+	.sub-title {
+		text-align: right;
+	}
+}
+@media screen and (max-width: 500px) {
+	.page-title,
+	.sub-title {
+		font-size: 1rem;
+		line-height: 1.3rem;
+		text-align: left;
+	}
+
+	.page-title {
+		font-size: 1rem;
+	}
+	.contact {
+		position: absolute;
+
+		margin-top: 40px;
+		text-align: left;
+	}
+	.projects-container {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	.project-texts {
+		opacity: 0.8;
+	}
+	.project-title {
+		font-size: 1.2rem;
+	}
+	.project-sub-title {
+		font-size: 1.2rem;
+	}
+	.App-header {
+		padding: 1.3rem;
+	}
 }
