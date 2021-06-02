@@ -11,20 +11,21 @@ import project8 from "../media/project8.png";
 const projectData = [
 	{
 		id: "1",
-		img: burkar,
-		imgalt: "Burkar",
-		title: "Gamla burkar flaskor och tanter",
-		year: "2017",
-		info: "",
-		url: "", // if no repo, the button will not show up
+		img: project6,
+		imgalt: "Uppdrag gamling",
+		title: "Patient och Undertecknad",
+		year: "2021",
+		info: "ljudtekniker, ljudläggare",
+		url: "",
 	},
 	{
-		iid: "2",
-		img: hush,
-		imgalt: "Hush hush stories",
-		title: "Hush Hush Stories",
-		year: "2015",
-		url: "", // if no repo, the button will not show up
+		id: "2",
+		img: project8,
+		imgalt: "Uppdrag gamling",
+		title: "Som blommor som fåglar och så",
+		year: "2020",
+		info: "ljudtekniker, ljudläggare",
+		url: "",
 	},
 	{
 		id: "3",
@@ -37,6 +38,24 @@ const projectData = [
 	},
 	{
 		id: "4",
+		img: burkar,
+		imgalt: "Burkar",
+		title: "Gamla burkar flaskor och tanter",
+		year: "2017",
+		info: "",
+		url: "", // if no repo, the button will not show up
+	},
+	{
+		id: "5",
+		img: hush,
+		imgalt: "Hush hush stories",
+		title: "Hush Hush Stories",
+		year: "2015",
+		url: "", // if no repo, the button will not show up
+	},
+	
+	{
+		id: "6",
 		img: undersokning,
 		imgalt: "Undersökningen",
 		title: "Undersökningen",
@@ -45,39 +64,23 @@ const projectData = [
 		url: "",
 	},
 	{
-		id: "5",
+		id: "7",
 		img: gamling,
 		imgalt: "Uppdrag gamling",
 		title: "Uppdrag gamling",
 		year: "2019",
 		url: "",
 	},
+	
 	{
-		id: "6",
-		img: project6,
-		imgalt: "Uppdrag gamling",
-		title: "Patient och Undertecknad",
-		year: "2021",
-		info: "ljudtekniker, ljudläggare",
-		url: "",
-	},
-	{
-		id: "7",
+		id: "8",
 		img: project7,
 		imgalt: "Uppdrag gamling",
 		title: "Lyssna på mig",
 		year: "2018",
 		url: "",
 	},
-	{
-		id: "8",
-		img: project8,
-		imgalt: "Uppdrag gamling",
-		title: "Som blommor som fåglar och så",
-		year: "2020",
-		info: "ljudtekniker, ljudläggare",
-		url: "",
-	},
+	
 ];
 
 export default projectData;

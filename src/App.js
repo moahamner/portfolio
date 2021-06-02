@@ -16,7 +16,7 @@ function App() {
 				</p>
 
 				<h1 className="page-title">Moa Hamner</h1>
-				<h2 className="sub-title">ljuddesigner</h2>
+				<h2 className="sub-title">ljuddesign</h2>
 			</header>
 			<Projects />
 			<footer>Copyright Moa Hamner {thisYear}</footer>
